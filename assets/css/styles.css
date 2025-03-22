@@ -1,0 +1,34 @@
+html {
+    font-size: 100%; 
+    height: 100%;  
+    overflow-x: hidden; 
+    touch-action: manipulation;
+}
+body {
+    font-size: 15px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
+    word-wrap: break-word; 
+    color: #323433;
+    background: url(../img/background.jpg) no-repeat center center;
+    background-size: cover;
+}
+h1, h2 { text-align: center; }
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh; 
+}
+.wrapper {
+    width: 600px;
+    background-color: #ffdd46;
+    padding: 20px;
+    border: 3px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
