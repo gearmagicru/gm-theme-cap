@@ -1,0 +1,8 @@
+{
+    "name": "Cap",
+    "version": "1.0.0",
+    "description": "Cap - это тема \"Заглушка\", применяется если веб-сайт находится на реконструкции или нет у него нет страниц",
+    "author": "anton.tivonenko@gmail.com",
+    "license": "GPL-2.0-or-later",
+    "keywords": ["Theme"]
+}
