@@ -1,0 +1,36 @@
+<?php
+/**
+ * Шаблон ошибки 404 (Not Found).
+ * 
+ * @package Theme
+ * @subpackage Cap
+ * @since 1.0
+ */
+?>
+<!DOCTYPE HTML>
+<html lang="ru-RU">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ошибка 404 (Не найдено)</title>
+    <link type="image/png" href="<?= Gm::getAlias('@theme::/assets/ico/favicon.ico') ?>" rel="icon" sizes="16x16">
+    <!-- theme CSS -->
+    <link rel="stylesheet" href="<?= Gm::getAlias('@theme::/assets/css/styles.css') ?>" />
+</head>
+
+<body>
+<div class="container">
+    <div class="wrapper">    
+        <h2>Ошибка 404 (Не найдено)</h2>
+        <p>Вы пытаетесь получить доступ к странице, которая возможно была удалена.</p>
+        <ol>
+            <li>Проверьте корректность вводимого вами адреса и/или скорректируйте его.</li>
+            <li>Очистите кэш вашего браузера и попробуйте обратиться к странице вновь.</li>
+            <li>Перейдите на главную страницу сайта и попробуйте найти нужную информацию, переходя по ссылкам.</li>
+            <li>Поищите страницу в поисковых системах — возможно страница была опубликована по новому адресу.</li>
+        </ol>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<?php
+/**
+ * Макет главной страницы.
+ * 
+ * @package Theme
+ * @subpackage Cap
+ * @since 1.0
+ * 
+ * @var \Gm\View\LayoutView $this
+ * @var string $content
+ */
+
+$this->registerAsset('main');
+?>
+<!DOCTYPE HTML>
+<html lang="<?= $this->getLang() ?>">
+<head>
+    <meta charset="<?= $this->getCharset() ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php $this->head() ?>
+</head>
+
+<body>
+<?php $this->beginBody() ?>
+<header>
+</header>
+
+<?= $content ?>
+
+<?php $this->endBody() ?>
+</body>
+
+</html>
